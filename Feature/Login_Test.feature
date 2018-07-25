@@ -5,11 +5,10 @@ Feature: Login Test
     When I Login  
     And user enter valid id and pwd
      Then user should successfully login
-     
-   Scenario: Create New customer
-    Given I am HomePage
-    When I click on Newcustomer
-    And I fill the form
-    Then New customer is created
-
+ 
+Scenario: create the new customer
+Given After login with valid crendetials
+When I click on new customer
+And I will fill the form and submit
+Then new customer should be created
 

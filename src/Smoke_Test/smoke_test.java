@@ -16,7 +16,17 @@ public class smoke_test {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("zygUrag");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		driver.findElement(By.xpath("/html/body/div[4]/div/ul/li[2]/a")).click();
-		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("abc");
+		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("shaik");
+		driver.findElement(By.xpath("//input[@name='dob']")).sendKeys("01012013");
+		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/textarea")).sendKeys("test");
+		driver.findElement(By.xpath("//input[@name='city']")).sendKeys("Hyderabad");
+		driver.findElement(By.xpath("//input[@name='state']")).sendKeys("Telanagana");
+		driver.findElement(By.xpath("//input[@name='pinno']")).sendKeys("500038");
+		driver.findElement(By.xpath("//input[@name='telephoneno']")).sendKeys("9874563210");
+		driver.findElement(By.xpath("//input[@name='emailid']")).sendKeys("asdf.fd12@gmail.com");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+		
 	}
 
 }
